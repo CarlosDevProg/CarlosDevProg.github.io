@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="css/style.css" type="text/css"  rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu">
+         <nav>
+             <ul>
+                 <li><a title="Meios de comunicação" href="contato.html">Contato</a></li>
+                 <li><a title="Experiências profissionais e qualificações" href="experiencia.html">Experiência</a></li>
+                 <li><a title="Formação escolar e profissional" href="formacao.html">Formação</a></li>
+                 <li><a title="Página inicial" href="index.html"><img src="images/home.png" height="20" alt="Página Inicial"></a></li>
+                 <li><img src="images/logo.png" height="50" alt="Logotipo Carlos Eduardo Salvador" /></li>
+             </ul>
+         </nav>
+         <!-- <section id="content"></section> -->
+        </div>
+    </header>
+    <div class="title">
+        <h1>Sobre mim</h1>
+        <hr color="black">
+    </div>
+    <div>
+        <figure>
+            <img src="images/eu.png" width="200" height="200" alt="foto de Carlos Eduardo Salvador">
+        </figure>
+        <p id="intro"> Meu nome é <strong>Carlos Eduardo Salvador</strong>,
+           tenho 28 anos, nascido em Ribeirão Preto interior de São Paulo
+           e moro em Cravinhos, cidade vizinha de Ribeirão Preto.
+           Desenvolvi este site para testar meus conhecimentos em HTML 5 e CSS 3,
+           para também poder mostrar aos recurtadores das empresas de TI e possiveis
+           futuros clientes, minhas capacidades técnicas com desenvolvimento Front-end.<br />
+           Tenho sede pelo conhecimento e por colocar em prática tudo aquilo que 
+           aprendo. Gosto de computadores, video-games e informática no geral desde 
+           criança e minha paixão por tecnologia e curiosidade por conhecimentos me levaram até 
+           onde estou hoje. Tenho como hobbies, programar, ver filmes, ler artigos cientificos, tocar, ler e pesquisar
+           sobre assuntos históricos. <br />
+           Sou uma pessoa sensata, autodidata, persistente, perseverante, respeitosa e com grande afinco
+           em dar o meu melhor nos trabalhos aos quais sou incubido.<br />
+           Siga em frente nas outras páginas para conhecer melhor meu histórico profissional e qualificações. Agradeço 
+           sua visita e espero que goste e aproveite. <br/>
+           <b><u>Carlos Eduardo Salvador</u></b></p>
+    </div>
+    <footer>
+      <div>
+         <br />
+         <p>Site desenvolvido por Carlos Eduardo Salvador &copy;</p>
+      </div>
+    </footer>
+    <!-- Requisição AJAX 
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            const content = document.getElementById('content');
+
+            link.onclick = function(e) {
+                e.preventDefault();
+                fetch(link.href)
+                   .then(resp => resp.text())
+                   .then(html => content.innerHTML = html);
+            }
+        })
+    </script> -->
+</body>
+</html>

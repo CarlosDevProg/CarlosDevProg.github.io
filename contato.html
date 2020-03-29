@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="css/style.css" type="text/css"  rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="experiencia.html">Experiência</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="index.html"><img src="images/home.png" height="20" alt="Página Inicial"></a></li>
+                    <li><img src="images/logo.png" height="50" alt="Logotipo Carlos Eduardo Salvador" /></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="title">
+        <h1>Entre em contato</h1>
+        <hr color="black">
+    </div>
+    <div class="description">
+        <p>Entre em contato comigo pelo formulário abaixo: </p>
+    </div>
+    <br />
+    <div>
+        <form action="php/sender.php" method="post">
+            <p class="name">
+                <label for="name">Nome: </label>
+                <input type="text" id="nameid" placeholder="Escreva seu nome" required="required" name="name" /></p>
+                <br />
+            <p class="email">
+                <label for="email">Email: </label>
+                <input type="email" id="emailid" placeholder="fulano@fulano.com" name="email" /></p><br />
+                <br />
+            <p><textarea placeholder="Escreva sua mensagem..." name="message"></textarea></p>
+            <br />
+            <p class="submit">
+                <input type="submit" onclick="enviar();" value="Enviar">
+            </p>
+        </form>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+    <footer>
+        <div>
+          <br />
+          <p>Site desenvolvido por Carlos Eduardo Salvador &copy;</p>
+        </div>
+    </footer>
+</body>
+</html>
