@@ -11,7 +11,7 @@ body {
 }
 #menu ul {
     width: 100%;
-    height: 50px;
+    height: 50%;
     background-color: #d6d6d6;
     list-style: none;
     font: 80% Tahoma;
@@ -53,7 +53,7 @@ div.description {
     margin: 0px;
 }
 .divider {
-    margin-left: 300px;
+    margin-left: 30%;
 }
 form {
     font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +70,7 @@ input, textarea {
     -moz-border-radius: 5px;
     border: 1px solid;
 }
-input:hover. textarea:hover, input:focus, textarea:focus {
+input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #111111;
     box-shadow: 5px 0px 9px #6d6d6d;
     background-color: #ffffff;
@@ -100,10 +100,10 @@ form label {
     font-weight: bold;
 }
 footer {
+    position: relative;
     height: 50px;
-    margin-top: 10px;
-    position: absolute;
-    bottom: 0px;
+    margin-top: 16%;
+    bottom: 0%;
     width: 100%;
     text-align: center;
     background-color: #111111;
