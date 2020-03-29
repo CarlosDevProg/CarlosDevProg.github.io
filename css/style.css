@@ -72,20 +72,11 @@ form {
     background-color: #ffffff;
     max-width: 300px;
 }
-input {
+input, textarea {
     width: 80%;
     padding: 10px;
     color: #111111;
     margin-left: 2%;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border: 1px solid;
-}
-textarea {
-    width: 80%;
-    padding: 10px;
-    color: #111111;
-    margin-left: -2%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border: 1px solid;
@@ -109,10 +100,10 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     color: #111111;
 }
 textarea {
-    width: 400px;
+    width: 240px;
     height: 120px;
     line-height: 20px;
-    max-width: 400px;
+    max-width: 300px;
 }
 form label {
     margin-left: 20px;
@@ -120,7 +111,7 @@ form label {
     font-weight: bold;
 }
 .footer {
-    height: 50px;
+    height: 150px;
     margin-top: -50px;
     width: 100%;
     text-align: center;
