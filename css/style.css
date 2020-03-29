@@ -61,7 +61,7 @@ figure {
 div.description {
     padding: 5px;
     margin: 0px;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 .divider {
     margin-left: 30%;
@@ -76,7 +76,7 @@ input, textarea {
     width: 200px;
     padding: 10px;
     color: #111111;
-    margin-left: 20px;
+    margin-left: 10px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border: 1px solid;
