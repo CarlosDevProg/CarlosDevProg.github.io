@@ -27,11 +27,13 @@
         <h1>Entre em contato</h1>
         <hr color="black">
     </div>
-    <div class="description">
-        <p>Entre em contato comigo pelo formulário abaixo: </p>
-    </div>
-    <br />
-    <div>
+    <div class="content">
+        <div class="content-inside">
+           <div class="description">
+              <p>Entre em contato comigo pelo formulário abaixo: </p>
+           </div>
+        <br />
+        <div>
         <form action="php/sender.php" method="post">
             <p class="name">
                 <label for="name">Nome:</label>
@@ -49,9 +51,11 @@
                 <input type="submit" onclick="enviar();" value="Enviar">
             </p>
         </form>
+       </div>
+      </div>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
-    <footer>
+    <footer class="footer">
         <div>
           <br />
           <p>Site desenvolvido por Carlos Eduardo Salvador &copy;</p>

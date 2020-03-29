@@ -1,17 +1,20 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
 html, body {
     height: 100%;
+}
+* {margin:0;padding:0;list-style:none;vertical-align:baseline;}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #111111;
+    min-height: 100%;
 }
 #menu ul {
     width: 100%;
-    height: 50%;
+    height: 100%;
     background-color: #d6d6d6;
     list-style: none;
     font: 80% Tahoma;
@@ -33,6 +36,13 @@ body {
     color: #6d6d6d;
     border-bottom: 3px solid #EA0000;
 }
+.content {
+    min-height: 100%;
+}
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
 div.title {
     padding: 5px;
     margin: 0px;
@@ -51,6 +61,7 @@ figure {
 div.description {
     padding: 5px;
     margin: 0px;
+    text-align: justify;
 }
 .divider {
     margin-left: 30%;
@@ -99,11 +110,9 @@ form label {
     color: #111111;
     font-weight: bold;
 }
-footer {
-    position: relative;
+.footer {
     height: 50px;
-    margin-top: 16%;
-    bottom: 0%;
+    margin-top: -50px;
     width: 100%;
     text-align: center;
     background-color: #111111;
