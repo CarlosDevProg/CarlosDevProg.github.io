@@ -22,4 +22,3 @@ if (isset($_POST['enviar'])) {
     // volta para contato.html
     header("Location: contato.html");
 }
-?>
