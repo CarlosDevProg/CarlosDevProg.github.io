@@ -73,7 +73,7 @@ form {
     max-width: 500px;
 }
 input, textarea {
-    width: 150px;
+    width: 100%;
     padding: 10px;
     color: #111111;
     margin-left: 10px;
