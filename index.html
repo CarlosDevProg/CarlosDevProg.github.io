@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
@@ -10,8 +11,8 @@
     <link href="css/style.css" type="text/css"  rel="stylesheet">
 </head>
 <body>
-    <header>
-        <!-- <section id="content"></section> -->
+    <header> 
+      <section id="content"></section>
         <div id="menu">
          <nav>
              <ul>
@@ -60,18 +61,5 @@
          <p>Site desenvolvido por Carlos Eduardo Salvador &copy;</p>
       </div>
     </footer>
-    <!-- Requisição AJAX 
-    <script>
-        document.querySelectorAll('a').forEach(link => {
-            const content = document.getElementById('content');
-
-            link.onclick = function(e) {
-                e.preventDefault();
-                fetch(link.href)
-                   .then(resp => resp.text())
-                   .then(html => content.innerHTML = html);
-            }
-        })
-    </script> -->
 </body>
 </html>

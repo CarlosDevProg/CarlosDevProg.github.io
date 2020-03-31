@@ -61,7 +61,6 @@ figure {
 div.description {
     padding: 5px;
     margin: 0px;
-    /*text-align: justify;*/
 }
 .divider {
     margin-left: 30%;
@@ -71,6 +70,14 @@ form {
     font-size: 15px;
     background-color: #ffffff;
     max-width: 300px;
+}
+#form {
+    height: 600px;
+    background-image: url(../images/background-form.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin-bottom: 100px;
 }
 input, textarea {
     width: 80%;
